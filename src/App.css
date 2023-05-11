@@ -1,0 +1,38 @@
+
+.Overflox{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.MuiCardMedia-root.makeStyles-root-1 {
+  overflow: hidden;
+}
+
+
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#41709c),
+									   to(#12c08b),
+									   color-stop(.6,#54DE5D))
+}
+
+
+body {
+  background-image: url("https://wallpapers.com/images/hd/perfect-weather-with-gradient-sky-ym0nn79vhoqg34v3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
